@@ -1,0 +1,28 @@
+{
+    "name": "Messege Beta",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "radio-broadcast": "*",
+        "multiplayer": "*",
+        "Notifications": "github:unsignedarduino/notifications#de6517dcc280cafe902ef212f59d4f55a982c7ec"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
